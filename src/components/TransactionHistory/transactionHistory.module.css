@@ -1,0 +1,23 @@
+.transactions{
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: aliceblue;
+    text-align: center;
+    min-width: 600px;
+}
+
+.transactions td, .transactions th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.transactions tr:nth-child(even){background-color: #ace2dd;}
+
+.transactions tr:hover {background-color: rgb(207 151 41 / 48%);}
+
+.transactions th {
+    text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #049faa;
+  color: white;
+}

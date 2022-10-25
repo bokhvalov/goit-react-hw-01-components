@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
+import { useEffect } from 'react';
 import css from './frendListItem.module.css';
 
-export const FrendListItem = ({ frend: { avatar, name, isOnline }, id }) => {
+export const FrendListItem = ({ frend: { avatar, name, isOnline } }) => {
   return (
     <li className={css.item} >
       <span className={`${css.status} ${isOnline && css.online}`}></span>

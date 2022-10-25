@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import { useEffect } from 'react';
 import css from './frendListItem.module.css';
 
 export const FrendListItem = ({ frend: { avatar, name, isOnline } }) => {

@@ -4,8 +4,8 @@ import { FrendListItem } from './frendListItem';
 
 export const FrendList = ({ friends }) => (
   <ul className={css.frendList}>
-    {friends.map(frend => {
-      return <FrendListItem frend={frend} />;
+    {friends.map((frend, id) => {
+      return <FrendListItem frend={frend} key={frend.id}/>;
     })}
   </ul>
 );
